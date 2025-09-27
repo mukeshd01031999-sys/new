@@ -1,0 +1,8 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "John Doe",
+    "age": 32,
+    "symptoms": "fever, cough"
+  }
+]

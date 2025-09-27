@@ -1,0 +1,34 @@
+# Minimal MCP stub (metadata + capabilities for each agent)
+agents:
+  - id: patient_agent
+    description: "Receives patient natural language requests and coordinates other agents."
+    capabilities:
+      - parse_request
+      - request_patient_id
+      - request_availability
+      - confirm_appointment
+
+  - id: patient_id_agent
+    description: "Generates unique patient IDs and stores patient records."
+    capabilities:
+      - generate_patient_id
+      - get_patient
+
+  - id: calendar_agent
+    description: "Reads/writes calendar availability (calendar.json)."
+    capabilities:
+      - list_slots
+      - reserve_slot
+      - free_slot
+
+  - id: doctor_availability_agent
+    description: "Matches doctor specialization and checks availability."
+    capabilities:
+      - find_doctor_by_specialization
+      - check_slot
+
+  - id: appointment_agent
+    description: "Creates appointments and writes to appointments.json."
+    capabilities:
+      - create_appointment
+      - list_appointments

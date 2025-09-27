@@ -1,0 +1,14 @@
+[
+  {
+    "doctor_id": "D001",
+    "name": "Dr. Alice Smith",
+    "specialization": "General Physician",
+    "available_slots": ["2025-10-01T10:00", "2025-10-01T11:00"]
+  },
+  {
+    "doctor_id": "D002",
+    "name": "Dr. Bob Lee",
+    "specialization": "Dermatology",
+    "available_slots": ["2025-10-01T10:30"]
+  }
+]

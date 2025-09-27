@@ -1,0 +1,9 @@
+[
+  {
+    "appointment_id": "A001",
+    "patient_id": "P001",
+    "doctor_id": "D001",
+    "slot": "2025-09-28T10:00",
+    "status": "confirmed"
+  }
+]
